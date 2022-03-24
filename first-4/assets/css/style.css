@@ -1,0 +1,136 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+ul{
+    list-style: none;
+}
+.wrapper{
+    padding-top: 33px;
+    padding-bottom: 220px;
+    background-color: #FFFFFF;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto 142px;
+}
+
+.nav, .menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu{
+    column-gap: 40px;
+    margin-right: 83px;
+}
+.menu__item{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.first-screen{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 49px;
+    padding-right: 79px;
+    
+}
+
+.btn{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background: #BF5AF2;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.btn--mini{
+    width: 150px;
+    height: 30px;
+}
+.btn--primary{
+    width: 300px;
+    height: 50px;
+    box-shadow: 0px 4px 8px -4px rgba(24, 39, 75, 0.12), 0px 8px 12px -4px rgba(24, 39, 75, 0.08);
+}
+.first-screen__center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-screen__left, .first-screen__right{
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    bottom: -220px;
+}
+.title{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #5856D6;
+    margin-bottom: 78px;
+    max-width: 678px;
+}
+.decription{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 28px;
+    color: #696C73;
+    max-width: 637px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.first-screen__right{
+    
+    overflow: hidden;
+}
+.mockup-right{
+    position: relative;
+    bottom: -72px;
+}
+.blur{
+    filter: blur(800px);
+    width: 639px;
+    height: 466px;
+    position: absolute;
+    z-index: -1;
+}
+.blur--1{
+    background: #FFD60A;
+    top: 72px;
+    left: 40px;
+}
+.blur--2{
+    background: #FF375F;
+    top: -10px;
+    right: -10px;
+}
+.blur--3{
+    background: #5E5CE6;
+    left: 45%;
+    bottom: 0;
+}
