@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: norma;
+}
+p,h2{
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #000000;
+
+}
+button{
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.container{
+    padding: 39px 20px;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.header__navigation{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 53px;
+}
+
+.header__menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__item:not(:last-child){
+    margin-right: 40px;
+}
+.header__item{
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+    padding-bottom: 3px;
+}
+.header__item:hover{
+    border-bottom: 1px solid #E65C00;
+}
+.btn{
+    box-shadow: 0px 4px 6px -4px rgba(24, 39, 75, 0.12), 0px 8px 8px -4px rgba(24, 39, 75, 0.08);
+    border-radius: 30px;
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(90deg, #00D2FF 0%, #3A7BD5 100%);
+    transition: all 0.2s ease-in-out;
+}
+.btn:hover{
+    background: linear-gradient(90deg, #00D2FF 20%, #3A7BD5 100%);
+}
+.btn--mini{
+    background: linear-gradient(90deg, #E65C00 0%, #F9D423 100%);
+    width: 150px;
+    height: 40px;
+    
+}
+.btn--mini:hover{
+    background: linear-gradient(90deg, #E65C00 20%, #F9D423 100%);
+}
+
+.first-screen{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+.first-screen__left{
+    width: 50%;
+}
+.first-screen__title{
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #37383C;
+    max-width: 556px;
+}
+.first-screen__description{
+    font-size: 18px;
+    line-height: 24px;
+    color: #696C73;
+    padding: 64px 0;
+    max-width: 556px;
+}
+.first-screen__img{
+    position: relative;
+    left: 150px;
+}
